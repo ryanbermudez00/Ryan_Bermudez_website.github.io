@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>div tag template</title>
+		<style>
+			body {background:lightBlue;font: 100% comicsans;times;serif;}
+			h1{font:300% Arial; comicsans; sarif; color: grey;}
+			h2{font:100% comicsans; color: white;}
+			p{color: red;}
+			#wrapper{width:1100px; margin 0 auto; padding:0 50px; text-align:left; position:relative;}
+			#mainHeader{height:185px; background: url(images/logo.png) no-repeat 25px center; padding 0 75px 0 300px; position: relative; border-bottom:2px solid #7f7f7f; margin-bottom: 16px;}
+			#mainHeader div{ margin-top: 16px;}
+			#mainHeader ul {list-style:none; float:left;}
+			#mainHeader ul li{float:left}
+			#mainHeader ul li{font-family: comicsans; times;arial; font-size:20px; color:#000; padding:0 20px; border-right:1px solid #000; text-decoration:none}
+			#mainHeader ul li a.last{border-right:none;}
+			#mainheader ul li a:hover{color:#c00000;}
+		</style>
+	</head>
+	<body>
+		<!--page content wrapper-->
+		<div id="wrapper">
+			<!--Page header- logo, title, links-->
+			<div id="mainHeader">
+				<h1>Exploring computer science</h1>
+				<h2>my collection of programing projects and assignments</h2>
+					<!-- navagation links-->
+					<div id="mainNav">
+						<ul id="pages">
+							<li> 
+								<a href="#">scratch</a>
+							</li>
+							<li> 
+								<a href="#">python</a>
+							</li>
+							<li> 
+								<a href="#">java</a>
+							</li>
+							<li> 
+								<a href="#">final project</a>
+							</li>
+						</ul>
+					</div>	<!--end navigation-->
+			</div>	<!--end header-->
+				<!--section content area-provects and assignments-->
+				<div id= "content">
+					<p> text replace w projecys and assign</p>
+				</div>   <!-- end content-->
+				<!-- aside content-->
+				<div id="hobbies">
+					<p> hobbies here</p>
+				</div>	<!--end hobbies-->
+				<!-- footer-->
+				<div id="pageFooter">
+					<p>author contact copy rights</p>
+				</div>	<!-- end footer-->
+		</div>	<!--end wrapper-->
+	</body>
+</html>
